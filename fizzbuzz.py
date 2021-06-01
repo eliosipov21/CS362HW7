@@ -5,5 +5,6 @@ def fbuzz(i):
         return "Fizz"
     if(i%5 == 0):
         return "Buzz"
-    
+    else:
+        return i
     return
