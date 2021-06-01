@@ -10,7 +10,7 @@ class testCaseAdd(unittest.TestCase):
         self.assertEqual(result, False)
     def test_leap3(self):
         result = leapyr.leapyear(400)
-        self.assertEqual(result, False)
+        self.assertEqual(result, True)
 
     
 
